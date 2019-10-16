@@ -1,0 +1,83 @@
+/* about.html*/ 
+
+
+.highlight {
+	color: white;
+}
+
+.highlight_contact {
+	color: #86C232;	
+}
+.myimg {
+	border: solid;
+	height: 15%;
+	width: 15%;
+	border-radius: 50%;
+
+}
+
+.main {
+	margin-top: 5%;
+}
+
+/*about_skills*/
+.myskills {
+	margin-left: 20px;
+}
+
+.container {
+	width: 95%;
+	background-color: #474B4F;
+	padding: 5px;
+}
+
+
+.skills { /*percentage text*/
+	text-align: right;
+	padding: 2px;
+	color: black;
+	font-weight: bold;
+
+}
+
+.pedit {
+	width: 65%; /*100 x .60 - percentage that want to get */
+	background-color: #86C232;
+	font-family: Trebuchet MS, Helvetica, sans-serif;	
+
+}
+.cs {
+	width: 75%; /*100 x .50 - percentage that want to get */
+	background-color: #86C232;
+	font-family: Trebuchet MS, Helvetica, sans-serif;	
+}
+.htm {
+	width: 85%; /*100 x .85 - percentage that want to get */
+	background-color: #86C232;
+	font-family: Trebuchet MS, Helvetica, sans-serif;	
+}
+
+.program {
+	width: 55%; /*100 x .55 - percentage that want to get */
+	background-color: #86C232;
+	font-family: Trebuchet MS, Helvetica, sans-serif;	
+}
+
+aside.bars {
+	padding: 15px;
+	background:#101820FF;
+	margin-top:10px;
+	margin-bottom:25px;
+	width: 50%;
+}
+/*sidebar*/
+aside.sidebar{
+  width: 30%;
+  float: right;
+  margin-right: 5%;
+  margin-top: 5%;
+  padding: 15px;
+  background: #474B4F;
+  line-height: 1.6;
+}
+

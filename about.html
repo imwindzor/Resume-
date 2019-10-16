@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
 	<title>My Resume</title>
 	<link href="css/main.css" rel="stylesheet" type="text/css" />
+	<link href="css/about_css.css" rel="stylesheet" type="text/css" />
+	<!--Icon-->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> 
+
 </head>
 
 <!--Start of body-->
@@ -17,8 +22,8 @@
 			<span>
 				<nav>
 					<ul class="nav">
-						<li><a class="active" href ="index.html">Home</a></li>
-						<li><a href ="about.html">About Me</a></li>
+						<li><a href ="index.html">Home</a></li>
+						<li><a class="active" href ="about.html">About Me</a></li>
 						<li><a href ="gallery.html">Gallery</a></li>	
 					</ul>
 				</nav>
@@ -32,12 +37,14 @@
 	<main class="main">
 		<section>
 			<article align="center">
-				<h2>ABOUT ME</h2>
-				<br />
+				<h2><span class="highlight">ABOUT</span> ME</h2>
+				<br>
 				<img src="./img/pogi.jpg" alt="MyPicture" class="myimg">
+				<br>
+				<br>
 				<p>
 					Hi there! I am Windzor Dave De Guzman, a fresh graduate from University of Cordilleras taking Information Technology major in Web Development in Baguio City. 
-					<br><br>You can call me Zor, Dave, Pogi, Cute or whatever name you want to call me.
+					<br><br>You can call me Zor, Dave, Pogi, or whatever name you want to call me.
 				</p>
 
 				<aside>
@@ -52,46 +59,58 @@
 
 	<br>
 	<br>
-	<h2>MY SKILLS</h2><br>
-	<div class="myskills">
-		<p><strong>Photo Editing</strong></p>
-		<div>
-			<div>70%</div>
-			<!--Some container here/bar-->
-		</div>
 
-		<p><strong>Web Development</strong></p>
-		<div>
-			<div>80%</div>
-			<!--Some container here/bar-->
-		</div>
-
-		<p><strong>Programming</strong></p>
-		<div>
-			<div>50%</div>
-			<!--Some container here/bar-->
-		</div>
-	</div>
-
-	<!--aside to right side-->
-	<aside>
-		<h1></h1>
-		<p>
-
+	<aside class="sidebar">
+		<h3>WHAT DO I DO |<span class="highlight_contact"> CONTACT</h3></span>
+		<p>	Basically, I am a full-time front end developer and a part-time back end developer.
+			I have attended some seminars regarding with website developing courses and I am frequently using
+			Bootstrap for a responsive designing. You can also check my github to take a look at some of my
+			projects.
 		</p>
-
+		<p>
+			<i class="material-icons">code</i><i class="material-icons">person_outline</i>      https://github.com/imwindzor/Resume-.git
+		</p>
 	</aside>
-	<hr>
-	
 
+	<h2 class="myskills"><span class="highlight">MY</span> SKILLS</h2>
+	
+	<aside class="bars">
+		<h4><p><b>Photo Editing</p></b></h4>
+		<div class="container">
+			<div class="skills pedit">65%</div>
+		</div>
+
+		<h4><p><b>CSS</p></b></h4>
+		<div class="container">
+			<div class="skills cs">75%</div>
+		</div>
+
+		<h4><p><b>HTML</p></b></p></h4>
+		<div class="container">
+			<div class="skills htm">85%</div>
+		</div>
+
+		<h4><p><b>Programming</p></b></h4>
+		<div class="container">
+			<div class="skills program">55%</div>
+		</div>
+	</aside>
+
+	<br>
+	
+	<br>
+
+	
 	<!--Footer-->
+	<hr>
 	<div id="footer">
 		<footer><center>
 			<p class="footer">&copy;Copyright 2019-2020.<br>
 				<strong>Windzor Dave De Guzman</p></strong>
 			</footer>
+		</div>
 
 
-			
-		</body>
-		</html>
+
+	</body>
+	</html>
