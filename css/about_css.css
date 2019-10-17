@@ -10,9 +10,9 @@
 }
 .myimg {
 	border: solid;
-	height: 15%;
-	width: 15%;
-	border-radius: 50%;
+	height: 13%;
+	width: 13%;
+	border-radius: 20%;
 
 }
 
@@ -22,7 +22,7 @@
 
 /*about_skills*/
 .myskills {
-	margin-left: 20px;
+	margin-left: 1%;
 }
 
 .container {
@@ -69,6 +69,7 @@ aside.bars {
 	margin-top:10px;
 	margin-bottom:25px;
 	width: 50%;
+
 }
 /*sidebar*/
 aside.sidebar{
@@ -79,5 +80,35 @@ aside.sidebar{
   padding: 15px;
   background: #474B4F;
   line-height: 1.6;
+  border: solid 1px;
 }
 
+/*additional skills @bottom */
+
+aside.ad_skills{ /*Additional Skills*/
+	float:right;
+	width: 20%;
+	margin-right: 20%;
+	clear: right;
+}
+aside.ad_skills2{ /*Personal info*/
+	margin-left: 20%;
+	width: 30%;
+	margin-right: 20%;
+	
+}
+
+div.additional_skills {
+	margin-left: 3%;
+}
+div.additional_skills2{
+	margin-left: 3%;
+}
+
+.certs { /*certificates*/
+	width: 20%;
+	float: right;
+
+	margin-right: 20%;
+	
+}
