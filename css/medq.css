@@ -1,0 +1,67 @@
+/* Portrait */
+@media only screen and (max-width: 600px) { /*start */
+
+	p  {
+		line-height: 2.5;
+	}
+
+	/* index */
+
+	.frontimg {
+		width: 90%;
+		height: 60%;
+	}
+
+	h3.mname {
+		text-align: center;
+		margin-top: 5%;
+	}
+
+	aside.remove { /*some of the paragraph */
+		display: none;
+	}
+
+	li a, .active{
+		float:none;
+		width: 50%;
+		text-align: center;
+		margin-top: 2%;
+
+	}
+
+	/* about */ 
+
+	.myimg {
+		width: 40%;
+		border: none;
+		border-radius: 70%;
+	}
+
+	p.remove {
+		display: none;
+	}
+
+	.myskills { /*text*/
+		margin-left: 5%;	 
+	}
+	aside.bars {
+		margin-left: 10%;
+		width: 70%;
+
+	}
+
+	/*sidebar*/
+	aside.sidebar {
+		display: none;	
+	}
+
+	aside.ad_skills { /*Additional Skills*/
+		float:right;
+		width: 20%;
+		margin-right: 20%;
+		clear: right;
+	}
+
+
+	} /*end of mquery */
+
